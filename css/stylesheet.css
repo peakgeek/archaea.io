@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Gruppo|Lato');
+
 body{
     background-color: black;
     font-family: "Lato", sans-serif;
@@ -18,4 +20,26 @@ body{
 
 h1 h2 h3{
     font-family: "Gruppo", cursive;
+}
+
+a:link {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+a:visited {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: ghostwhite;
+    text-shadow: 2px 2px 2px #ff0000;
+}
+
+a:active {
+    text-decoration: underline;
+    color: ghostwhite;
+    text-shadow: 2px 2px 2px #ff0000;
 }
