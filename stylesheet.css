@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    font-family: "lato", sans-serif;
+    color: ghostwhite;
+}
+
+#archaea{
+    font-family: "gruppo", cursive;
+    font-size: 500%;
+    text-align: center;
+}
+
+#quote{
+    font-size: 150%;
+    font-style: italic;
+    text-align: center;
+}
+
+h1 h2 h3{
+    font-family: "gruppo", cursive;
+}
