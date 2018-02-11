@@ -2,6 +2,12 @@ body{
     background-color: black;
     font-family: "Lato", sans-serif;
     color: ghostwhite;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+
 }
 
 #archaea{
@@ -18,4 +24,33 @@ body{
 
 h1 h2 h3{
     font-family: "Gruppo", cursive;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111111;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: black;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
 }
